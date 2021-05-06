@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [nopcommerce Regression Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" verbose="0" name="Regression Test(failed)">
+    <classes>
+      <class name="tests.CompareProductTest">
+        <methods>
+          <include name="UserCanCompareProduct"/>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.CompareProductTest -->
+      <class name="tests.MyAccTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="RegisterSuccessfully"/>
+          <include name="registredUserCanChangePw"/>
+          <include name="userCanLogin"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+          <include name="userCanLogout"/>
+        </methods>
+      </class> <!-- tests.MyAccTest -->
+      <class name="tests.ProductReviewTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+          <include name="userCanReviewProduct"/>
+        </methods>
+      </class> <!-- tests.ProductReviewTest -->
+      <class name="tests.AddProductToShopingCartTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="UserCanAddProductToShopingCart"/>
+          <include name="stopDriver"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.AddProductToShopingCartTest -->
+      <class name="tests.UserRegistrationTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="RegisterSuccessfully"/>
+          <include name="stopDriver"/>
+          <include name="userCanLogout"/>
+          <include name="screenshotOnFailure"/>
+          <include name="userCanLogin"/>
+        </methods>
+      </class> <!-- tests.UserRegistrationTest -->
+      <class name="tests.RegiseredUserCheckoutProductTest">
+        <methods>
+          <include name="UserCanAddProductToShopingCart"/>
+          <include name="startDriver"/>
+          <include name="UserCanCheckoutProduct"/>
+          <include name="stopDriver"/>
+          <include name="RegisterSuccessfully"/>
+          <include name="userCanLogout"/>
+          <include name="screenshotOnFailure"/>
+        </methods>
+      </class> <!-- tests.RegiseredUserCheckoutProductTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [nopcommerce Regression Suite] -->

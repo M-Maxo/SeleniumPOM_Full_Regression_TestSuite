@@ -1,0 +1,115 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 12, Errors: 0, Skipped: 2, Time elapsed: 372.41 s <<< FAILURE! - in TestSuite
+tests.CompareProductTest.UserCanCompareProduct  Time elapsed: 40.759 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"product comparison"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAXO', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Maxo\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b60a5fe8ef811128c249b5c7e1ba5d5f
+*** Element info: {Using=link text, value=product comparison}
+	at tests.CompareProductTest.UserCanCompareProduct(CompareProductTest.java:27)
+
+tests.ProductReviewTest.userCanReviewProduct  Time elapsed: 30.07 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Register"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAXO', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Maxo\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b60a5fe8ef811128c249b5c7e1ba5d5f
+*** Element info: {Using=link text, value=Register}
+	at tests.ProductReviewTest.userCanReviewProduct(ProductReviewTest.java:41)
+
+tests.UserRegistrationTest.RegisterSuccessfully  Time elapsed: 30.067 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Register"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAXO', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Maxo\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b60a5fe8ef811128c249b5c7e1ba5d5f
+*** Element info: {Using=link text, value=Register}
+	at tests.UserRegistrationTest.RegisterSuccessfully(UserRegistrationTest.java:20)
+
+tests.MyAccTest.RegisterSuccessfully  Time elapsed: 30.141 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Register"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAXO', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Maxo\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b60a5fe8ef811128c249b5c7e1ba5d5f
+*** Element info: {Using=link text, value=Register}
+	at tests.MyAccTest.RegisterSuccessfully(MyAccTest.java:27)
+
+tests.RegiseredUserCheckoutProductTest.RegisterSuccessfully  Time elapsed: 30.109 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Register"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAXO', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Maxo\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b60a5fe8ef811128c249b5c7e1ba5d5f
+*** Element info: {Using=link text, value=Register}
+	at tests.RegiseredUserCheckoutProductTest.RegisterSuccessfully(RegiseredUserCheckoutProductTest.java:38)
+
+tests.AddProductToShopingCartTest.UserCanAddProductToShopingCart  Time elapsed: 3.75 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at tests.AddProductToShopingCartTest.UserCanAddProductToShopingCart(AddProductToShopingCartTest.java:34)
+
+tests.MyAccTest.registredUserCanChangePw  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.NullPointerException
+	at tests.MyAccTest.registredUserCanChangePw(MyAccTest.java:41)
+
+tests.RegiseredUserCheckoutProductTest.UserCanAddProductToShopingCart  Time elapsed: 2.75 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at tests.RegiseredUserCheckoutProductTest.UserCanAddProductToShopingCart(RegiseredUserCheckoutProductTest.java:62)
+
+tests.MyAccTest.userCanLogout  Time elapsed: 0.402 s  <<< FAILURE!
+java.lang.NullPointerException
+	at tests.MyAccTest.userCanLogout(MyAccTest.java:53)
+
+tests.RegiseredUserCheckoutProductTest.UserCanCheckoutProduct  Time elapsed: 30.022 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#termsofservice"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAXO', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Maxo\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b60a5fe8ef811128c249b5c7e1ba5d5f
+*** Element info: {Using=id, value=termsofservice}
+	at tests.RegiseredUserCheckoutProductTest.UserCanCheckoutProduct(RegiseredUserCheckoutProductTest.java:69)
+
+tests.MyAccTest.userCanLogin  Time elapsed: 30.526 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"link text","selector":"Log in"}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'MAXO', ip: '192.168.1.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_60'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Maxo\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b60a5fe8ef811128c249b5c7e1ba5d5f
+*** Element info: {Using=link text, value=Log in}
+	at tests.MyAccTest.userCanLogin(MyAccTest.java:60)
+
+tests.RegiseredUserCheckoutProductTest.userCanLogout  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at tests.RegiseredUserCheckoutProductTest.userCanLogout(RegiseredUserCheckoutProductTest.java:80)
+

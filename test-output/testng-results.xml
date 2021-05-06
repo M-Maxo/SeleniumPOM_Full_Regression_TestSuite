@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="8659" started-at="2021-05-07T01:45:41 EET" finished-at="2021-05-07T01:45:49 EET">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="8659" started-at="2021-05-07T01:45:41 EET" finished-at="2021-05-07T01:45:49 EET">
+      <class name="tests.UserRegistrationTest">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:tests.UserRegistrationTest@4493d195]" name="startDriver" is-config="true" duration-ms="5053" started-at="2021-05-07T01:45:36 EET" finished-at="2021-05-07T01:45:41 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method status="PASS" signature="RegisterSuccessfully()[pri:1, instance:tests.UserRegistrationTest@4493d195]" name="RegisterSuccessfully" duration-ms="3742" started-at="2021-05-07T01:45:41 EET" finished-at="2021-05-07T01:45:45 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RegisterSuccessfully -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserRegistrationTest@4493d195]" name="screenshotOnFailure" is-config="true" duration-ms="2" started-at="2021-05-07T01:45:45 EET" finished-at="2021-05-07T01:45:45 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=RegisterSuccessfully status=SUCCESS method=UserRegistrationTest.RegisterSuccessfully()[pri:1, instance:tests.UserRegistrationTest@4493d195] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="userCanLogout()[pri:0, instance:tests.UserRegistrationTest@4493d195]" name="userCanLogout" duration-ms="2311" started-at="2021-05-07T01:45:45 EET" depends-on-methods="tests.UserRegistrationTest.RegisterSuccessfully" finished-at="2021-05-07T01:45:47 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanLogout -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserRegistrationTest@4493d195]" name="screenshotOnFailure" is-config="true" duration-ms="0" started-at="2021-05-07T01:45:47 EET" finished-at="2021-05-07T01:45:47 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanLogout status=SUCCESS method=UserRegistrationTest.userCanLogout()[pri:0, instance:tests.UserRegistrationTest@4493d195] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="userCanLogin()[pri:0, instance:tests.UserRegistrationTest@4493d195]" name="userCanLogin" duration-ms="2532" started-at="2021-05-07T01:45:47 EET" depends-on-methods="tests.UserRegistrationTest.userCanLogout" finished-at="2021-05-07T01:45:49 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userCanLogin -->
+        <test-method status="PASS" signature="screenshotOnFailure(org.testng.ITestResult)[pri:0, instance:tests.UserRegistrationTest@4493d195]" name="screenshotOnFailure" is-config="true" duration-ms="1" started-at="2021-05-07T01:45:49 EET" finished-at="2021-05-07T01:45:49 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userCanLogin status=SUCCESS method=UserRegistrationTest.userCanLogin()[pri:0, instance:tests.UserRegistrationTest@4493d195] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshotOnFailure -->
+        <test-method status="PASS" signature="stopDriver()[pri:0, instance:tests.UserRegistrationTest@4493d195]" name="stopDriver" is-config="true" duration-ms="831" started-at="2021-05-07T01:45:49 EET" finished-at="2021-05-07T01:45:50 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stopDriver -->
+      </class> <!-- tests.UserRegistrationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

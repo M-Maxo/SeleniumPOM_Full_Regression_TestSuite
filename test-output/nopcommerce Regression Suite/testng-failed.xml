@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [nopcommerce Regression Suite]">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="5" name="Regression Test(failed)">
+    <classes>
+      <class name="tests.ChangeCurrncyTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="tearDownClass"/>
+          <include name="screenshotOnFailure"/>
+          <include name="userCanChangeCurrency"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- tests.ChangeCurrncyTest -->
+      <class name="tests.ProductReviewTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="tearDownClass"/>
+          <include name="screenshotOnFailure"/>
+          <include name="userCanReviewProduct"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- tests.ProductReviewTest -->
+      <class name="tests.RegiseredUserCheckoutProductTest">
+        <methods>
+          <include name="UserCanAddProductToShopingCart"/>
+          <include name="startDriver"/>
+          <include name="UserCanCheckoutProduct"/>
+          <include name="stopDriver"/>
+          <include name="RegisterSuccessfully"/>
+          <include name="userCanLogout"/>
+          <include name="tearDownClass"/>
+          <include name="screenshotOnFailure"/>
+          <include name="UserCanSelectFromList"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- tests.RegiseredUserCheckoutProductTest -->
+      <class name="tests.AddProductToShopingCartTest">
+        <methods>
+          <include name="UserCanRemoveProductFromCart"/>
+          <include name="startDriver"/>
+          <include name="UserCanAddProductToShopingCart"/>
+          <include name="stopDriver"/>
+          <include name="UserCanSearchForProduct"/>
+          <include name="tearDownClass"/>
+          <include name="screenshotOnFailure"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- tests.AddProductToShopingCartTest -->
+      <class name="tests.CompareProductTest">
+        <methods>
+          <include name="UserCanCompareProduct"/>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="tearDownClass"/>
+          <include name="screenshotOnFailure"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- tests.CompareProductTest -->
+      <class name="tests.ContactUsTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="UserCanUseContactUs"/>
+          <include name="stopDriver"/>
+          <include name="tearDownClass"/>
+          <include name="screenshotOnFailure"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- tests.ContactUsTest -->
+      <class name="tests.MyAccTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="RegisterSuccessfully"/>
+          <include name="registredUserCanChangePw"/>
+          <include name="userCanLogin"/>
+          <include name="stopDriver"/>
+          <include name="tearDownClass"/>
+          <include name="screenshotOnFailure"/>
+          <include name="userCanLogout"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- tests.MyAccTest -->
+      <class name="tests.AddProductToWishlistTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="tearDownClass"/>
+          <include name="screenshotOnFailure"/>
+          <include name="UserCanSelectFromList"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- tests.AddProductToWishlistTest -->
+      <class name="tests.SendEmailToFriendTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="tearDownClass"/>
+          <include name="screenshotOnFailure"/>
+          <include name="sendEmailToFriend"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- tests.SendEmailToFriendTest -->
+      <class name="tests.SearchProductTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="UserCanSearchForProduct"/>
+          <include name="stopDriver"/>
+          <include name="tearDownClass"/>
+          <include name="screenshotOnFailure"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- tests.SearchProductTest -->
+      <class name="tests.ProductHoverMenuTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="stopDriver"/>
+          <include name="tearDownClass"/>
+          <include name="screenshotOnFailure"/>
+          <include name="UserCanSelectSubCategoryFromMainMenu"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- tests.ProductHoverMenuTest -->
+      <class name="tests.SearchUsingAutoSuggestTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="UserCanSelectFromList"/>
+          <include name="stopDriver"/>
+          <include name="tearDownClass"/>
+          <include name="screenshotOnFailure"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- tests.SearchUsingAutoSuggestTest -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [nopcommerce Regression Suite] -->

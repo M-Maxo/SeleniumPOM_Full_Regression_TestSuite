@@ -1,0 +1,1369 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 12 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-nopcommerce_Regression_Suite">
+              <span class="suite-name border-failed">nopcommerce Regression Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-nopcommerce_Regression_Suite">
+                    <span>E:\Desktop\Software Testing\Automation\Eclipse Projects\TAF_POM\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-nopcommerce_Regression_Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-nopcommerce_Regression_Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-nopcommerce_Regression_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-nopcommerce_Regression_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-nopcommerce_Regression_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-nopcommerce_Regression_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">24 methods, 12 failed,  2 skipped,  10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-nopcommerce_Regression_Suite" class="hide-methods failed suite-nopcommerce_Regression_Suite"> (hide)</a> <!-- hide-methods failed suite-nopcommerce_Regression_Suite -->
+                      <a href="#" panel-name="suite-nopcommerce_Regression_Suite" class="show-methods failed suite-nopcommerce_Regression_Suite"> (show)</a> <!-- show-methods failed suite-nopcommerce_Regression_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-nopcommerce_Regression_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.RegiseredUserCheckoutProductTest" hash-for-method="RegisterSuccessfully">RegisterSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.UserRegistrationTest" hash-for-method="RegisterSuccessfully">RegisterSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.MyAccTest" hash-for-method="RegisterSuccessfully">RegisterSuccessfully</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.AddProductToShopingCartTest" hash-for-method="UserCanAddProductToShopingCart">UserCanAddProductToShopingCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.RegiseredUserCheckoutProductTest" hash-for-method="UserCanAddProductToShopingCart">UserCanAddProductToShopingCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.RegiseredUserCheckoutProductTest" hash-for-method="UserCanCheckoutProduct">UserCanCheckoutProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.CompareProductTest" hash-for-method="UserCanCompareProduct">UserCanCompareProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.MyAccTest" hash-for-method="registredUserCanChangePw">registredUserCanChangePw</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.MyAccTest" hash-for-method="userCanLogin">userCanLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.MyAccTest" hash-for-method="userCanLogout">userCanLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.RegiseredUserCheckoutProductTest" hash-for-method="userCanLogout">userCanLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.ProductReviewTest" hash-for-method="userCanReviewProduct">userCanReviewProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-nopcommerce_Regression_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-nopcommerce_Regression_Suite" class="hide-methods skipped suite-nopcommerce_Regression_Suite"> (hide)</a> <!-- hide-methods skipped suite-nopcommerce_Regression_Suite -->
+                      <a href="#" panel-name="suite-nopcommerce_Regression_Suite" class="show-methods skipped suite-nopcommerce_Regression_Suite"> (show)</a> <!-- show-methods skipped suite-nopcommerce_Regression_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-nopcommerce_Regression_Suite">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.UserRegistrationTest" hash-for-method="userCanLogin">userCanLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.UserRegistrationTest" hash-for-method="userCanLogout">userCanLogout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-nopcommerce_Regression_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-nopcommerce_Regression_Suite" class="hide-methods passed suite-nopcommerce_Regression_Suite"> (hide)</a> <!-- hide-methods passed suite-nopcommerce_Regression_Suite -->
+                      <a href="#" panel-name="suite-nopcommerce_Regression_Suite" class="show-methods passed suite-nopcommerce_Regression_Suite"> (show)</a> <!-- show-methods passed suite-nopcommerce_Regression_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-nopcommerce_Regression_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.AddProductToShopingCartTest" hash-for-method="UserCanRemoveProductFromCart">UserCanRemoveProductFromCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.SearchProductTest" hash-for-method="UserCanSearchForProduct">UserCanSearchForProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.AddProductToShopingCartTest" hash-for-method="UserCanSearchForProduct">UserCanSearchForProduct</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.RegiseredUserCheckoutProductTest" hash-for-method="UserCanSelectFromList">UserCanSelectFromList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.AddProductToWishlistTest" hash-for-method="UserCanSelectFromList">UserCanSelectFromList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.SearchUsingAutoSuggestTest" hash-for-method="UserCanSelectFromList">UserCanSelectFromList</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.ProductHoverMenuTest" hash-for-method="UserCanSelectSubCategoryFromMainMenu">UserCanSelectSubCategoryFromMainMenu</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.ContactUsTest" hash-for-method="UserCanUseContactUs">UserCanUseContactUs</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.SendEmailToFriendTest" hash-for-method="sendEmailToFriend">sendEmailToFriend</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-nopcommerce_Regression_Suite" title="tests.ChangeCurrncyTest" hash-for-method="userCanChangeCurrency">userCanChangeCurrency</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-nopcommerce_Regression_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-nopcommerce_Regression_Suite" class="panel nopcommerce_Regression_Suite">
+          <div class="suite-nopcommerce_Regression_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.CompareProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanCompareProduct">
+                  </a> <!-- UserCanCompareProduct -->
+                  <span class="method-name">UserCanCompareProduct</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;product comparison&quot;}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MAXO&apos;, ip: &apos;192.168.1.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Maxo\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b60a5fe8ef811128c249b5c7e1ba5d5f
+*** Element info: {Using=link text, value=product comparison}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at pages.PageBase.clickButton(PageBase.java:25)
+	at pages.ProductDetailsPage.GoToComparisonPage(ProductDetailsPage.java:66)
+	at tests.CompareProductTest.UserCanCompareProduct(CompareProductTest.java:27)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_Regression_Suite-class-failed -->
+          <div class="suite-nopcommerce_Regression_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.MyAccTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterSuccessfully">
+                  </a> <!-- RegisterSuccessfully -->
+                  <span class="method-name">RegisterSuccessfully</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Register&quot;}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MAXO&apos;, ip: &apos;192.168.1.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Maxo\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b60a5fe8ef811128c249b5c7e1ba5d5f
+*** Element info: {Using=link text, value=Register}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at pages.PageBase.clickButton(PageBase.java:25)
+	at pages.HomePage.openRegPage(HomePage.java:39)
+	at tests.MyAccTest.RegisterSuccessfully(MyAccTest.java:27)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registredUserCanChangePw">
+                  </a> <!-- registredUserCanChangePw -->
+                  <span class="method-name">registredUserCanChangePw</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at tests.MyAccTest.registredUserCanChangePw(MyAccTest.java:41)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanLogin">
+                  </a> <!-- userCanLogin -->
+                  <span class="method-name">userCanLogin</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Log in&quot;}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MAXO&apos;, ip: &apos;192.168.1.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Maxo\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b60a5fe8ef811128c249b5c7e1ba5d5f
+*** Element info: {Using=link text, value=Log in}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at pages.PageBase.clickButton(PageBase.java:25)
+	at pages.HomePage.openLoginPage(HomePage.java:44)
+	at tests.MyAccTest.userCanLogin(MyAccTest.java:60)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanLogout">
+                  </a> <!-- userCanLogout -->
+                  <span class="method-name">userCanLogout</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at tests.MyAccTest.userCanLogout(MyAccTest.java:53)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_Regression_Suite-class-failed -->
+          <div class="suite-nopcommerce_Regression_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.ProductReviewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanReviewProduct">
+                  </a> <!-- userCanReviewProduct -->
+                  <span class="method-name">userCanReviewProduct</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Register&quot;}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MAXO&apos;, ip: &apos;192.168.1.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Maxo\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b60a5fe8ef811128c249b5c7e1ba5d5f
+*** Element info: {Using=link text, value=Register}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at pages.PageBase.clickButton(PageBase.java:25)
+	at pages.HomePage.openRegPage(HomePage.java:39)
+	at tests.ProductReviewTest.userCanReviewProduct(ProductReviewTest.java:41)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_Regression_Suite-class-failed -->
+          <div class="suite-nopcommerce_Regression_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.AddProductToShopingCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanAddProductToShopingCart">
+                  </a> <!-- UserCanAddProductToShopingCart -->
+                  <span class="method-name">UserCanAddProductToShopingCart</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.AddProductToShopingCartTest.UserCanAddProductToShopingCart(AddProductToShopingCartTest.java:34)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_Regression_Suite-class-failed -->
+          <div class="suite-nopcommerce_Regression_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.UserRegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterSuccessfully">
+                  </a> <!-- RegisterSuccessfully -->
+                  <span class="method-name">RegisterSuccessfully</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Register&quot;}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MAXO&apos;, ip: &apos;192.168.1.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Maxo\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b60a5fe8ef811128c249b5c7e1ba5d5f
+*** Element info: {Using=link text, value=Register}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at pages.PageBase.clickButton(PageBase.java:25)
+	at pages.HomePage.openRegPage(HomePage.java:39)
+	at tests.UserRegistrationTest.RegisterSuccessfully(UserRegistrationTest.java:20)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_Regression_Suite-class-failed -->
+          <div class="suite-nopcommerce_Regression_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">tests.RegiseredUserCheckoutProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="RegisterSuccessfully">
+                  </a> <!-- RegisterSuccessfully -->
+                  <span class="method-name">RegisterSuccessfully</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;link text&quot;,&quot;selector&quot;:&quot;Register&quot;}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MAXO&apos;, ip: &apos;192.168.1.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Maxo\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b60a5fe8ef811128c249b5c7e1ba5d5f
+*** Element info: {Using=link text, value=Register}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByLinkText(RemoteWebDriver.java:380)
+	at org.openqa.selenium.By$ByLinkText.findElement(By.java:220)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at pages.PageBase.clickButton(PageBase.java:25)
+	at pages.HomePage.openRegPage(HomePage.java:39)
+	at tests.RegiseredUserCheckoutProductTest.RegisterSuccessfully(RegiseredUserCheckoutProductTest.java:38)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanAddProductToShopingCart">
+                  </a> <!-- UserCanAddProductToShopingCart -->
+                  <span class="method-name">UserCanAddProductToShopingCart</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at tests.RegiseredUserCheckoutProductTest.UserCanAddProductToShopingCart(RegiseredUserCheckoutProductTest.java:62)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanCheckoutProduct">
+                  </a> <!-- UserCanCheckoutProduct -->
+                  <span class="method-name">UserCanCheckoutProduct</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#termsofservice&quot;}
+  (Session info: chrome=89.0.4389.114)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MAXO&apos;, ip: &apos;192.168.1.15&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_60&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.114, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Maxo\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:54522}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b60a5fe8ef811128c249b5c7e1ba5d5f
+*** Element info: {Using=id, value=termsofservice}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:372)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.click(Unknown Source)
+	at pages.PageBase.clickButton(PageBase.java:25)
+	at pages.AddProductToShopingCartPage.OpenCheckoutPage(AddProductToShopingCartPage.java:46)
+	at tests.RegiseredUserCheckoutProductTest.UserCanCheckoutProduct(RegiseredUserCheckoutProductTest.java:69)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 35 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanLogout">
+                  </a> <!-- userCanLogout -->
+                  <span class="method-name">userCanLogout</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at tests.RegiseredUserCheckoutProductTest.userCanLogout(RegiseredUserCheckoutProductTest.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_Regression_Suite-class-failed -->
+          <div class="suite-nopcommerce_Regression_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">tests.UserRegistrationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanLogin">
+                  </a> <!-- userCanLogin -->
+                  <span class="method-name">userCanLogin</span>
+                  <div class="stack-trace">java.lang.Throwable: Method UserRegistrationTest.userCanLogin()[pri:0, instance:tests.UserRegistrationTest@369f73a2] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanLogout">
+                  </a> <!-- userCanLogout -->
+                  <span class="method-name">userCanLogout</span>
+                  <div class="stack-trace">java.lang.Throwable: Method UserRegistrationTest.userCanLogout()[pri:0, instance:tests.UserRegistrationTest@369f73a2] depends on not successfully finished methods
+	at java.util.ArrayList.forEach(ArrayList.java:1249)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_Regression_Suite-class-skipped -->
+          <div class="suite-nopcommerce_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ChangeCurrncyTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="userCanChangeCurrency">
+                  </a> <!-- userCanChangeCurrency -->
+                  <span class="method-name">userCanChangeCurrency</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_Regression_Suite-class-passed -->
+          <div class="suite-nopcommerce_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddProductToWishlistTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanSelectFromList">
+                  </a> <!-- UserCanSelectFromList -->
+                  <span class="method-name">UserCanSelectFromList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_Regression_Suite-class-passed -->
+          <div class="suite-nopcommerce_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.AddProductToShopingCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanRemoveProductFromCart">
+                  </a> <!-- UserCanRemoveProductFromCart -->
+                  <span class="method-name">UserCanRemoveProductFromCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanSearchForProduct">
+                  </a> <!-- UserCanSearchForProduct -->
+                  <span class="method-name">UserCanSearchForProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_Regression_Suite-class-passed -->
+          <div class="suite-nopcommerce_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchUsingAutoSuggestTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanSelectFromList">
+                  </a> <!-- UserCanSelectFromList -->
+                  <span class="method-name">UserCanSelectFromList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_Regression_Suite-class-passed -->
+          <div class="suite-nopcommerce_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SendEmailToFriendTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendEmailToFriend">
+                  </a> <!-- sendEmailToFriend -->
+                  <span class="method-name">sendEmailToFriend</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_Regression_Suite-class-passed -->
+          <div class="suite-nopcommerce_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ContactUsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanUseContactUs">
+                  </a> <!-- UserCanUseContactUs -->
+                  <span class="method-name">UserCanUseContactUs</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_Regression_Suite-class-passed -->
+          <div class="suite-nopcommerce_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.SearchProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanSearchForProduct">
+                  </a> <!-- UserCanSearchForProduct -->
+                  <span class="method-name">UserCanSearchForProduct</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_Regression_Suite-class-passed -->
+          <div class="suite-nopcommerce_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.RegiseredUserCheckoutProductTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanSelectFromList">
+                  </a> <!-- UserCanSelectFromList -->
+                  <span class="method-name">UserCanSelectFromList</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_Regression_Suite-class-passed -->
+          <div class="suite-nopcommerce_Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ProductHoverMenuTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="UserCanSelectSubCategoryFromMainMenu">
+                  </a> <!-- UserCanSelectSubCategoryFromMainMenu -->
+                  <span class="method-name">UserCanSelectSubCategoryFromMainMenu</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-nopcommerce_Regression_Suite-class-passed -->
+        </div> <!-- panel nopcommerce_Regression_Suite -->
+        <div panel-name="test-xml-nopcommerce_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Desktop\Software Testing\Automation\Eclipse Projects\TAF_POM\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;nopcommerce Regression Suite&quot;&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Regression Test&quot; preserve-order=&quot;false&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.AddProductToShopingCartTest&quot;/&gt;
+      &lt;class name=&quot;tests.AddProductToWishlistTest&quot;/&gt;
+      &lt;class name=&quot;tests.ChangeCurrncyTest&quot;/&gt;
+      &lt;class name=&quot;tests.CompareProductTest&quot;/&gt;
+      &lt;class name=&quot;tests.ContactUsTest&quot;/&gt;
+      &lt;class name=&quot;tests.MyAccTest&quot;/&gt;
+      &lt;class name=&quot;tests.ProductHoverMenuTest&quot;/&gt;
+      &lt;class name=&quot;tests.ProductReviewTest&quot;/&gt;
+      &lt;class name=&quot;tests.RegiseredUserCheckoutProductTest&quot;/&gt;
+      &lt;class name=&quot;tests.SearchProductTest&quot;/&gt;
+      &lt;class name=&quot;tests.SearchUsingAutoSuggestTest&quot;/&gt;
+      &lt;class name=&quot;tests.SendEmailToFriendTest&quot;/&gt;
+      &lt;class name=&quot;tests.UserRegistrationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression Test --&gt;
+&lt;/suite&gt; &lt;!-- nopcommerce Regression Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-nopcommerce_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for nopcommerce Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression Test (13 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-nopcommerce_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for nopcommerce Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-nopcommerce_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for nopcommerce Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_nopcommerce_Regression_Suite');
+function tableData_nopcommerce_Regression_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(24);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'UserCanSearchForProduct')
+data.setCell(0, 2, 'tests.SearchProductTest')
+data.setCell(0, 3, 68705);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'UserCanCompareProduct')
+data.setCell(1, 2, 'tests.CompareProductTest')
+data.setCell(1, 3, 40815);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'userCanLogin')
+data.setCell(2, 2, 'tests.MyAccTest')
+data.setCell(2, 3, 30520);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'RegisterSuccessfully')
+data.setCell(3, 2, 'tests.MyAccTest')
+data.setCell(3, 3, 30142);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'RegisterSuccessfully')
+data.setCell(4, 2, 'tests.RegiseredUserCheckoutProductTest')
+data.setCell(4, 3, 30110);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'userCanReviewProduct')
+data.setCell(5, 2, 'tests.ProductReviewTest')
+data.setCell(5, 3, 30069);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'RegisterSuccessfully')
+data.setCell(6, 2, 'tests.UserRegistrationTest')
+data.setCell(6, 3, 30069);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'UserCanCheckoutProduct')
+data.setCell(7, 2, 'tests.RegiseredUserCheckoutProductTest')
+data.setCell(7, 3, 30020);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'sendEmailToFriend')
+data.setCell(8, 2, 'tests.SendEmailToFriendTest')
+data.setCell(8, 3, 15527);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'UserCanUseContactUs')
+data.setCell(9, 2, 'tests.ContactUsTest')
+data.setCell(9, 3, 11159);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'UserCanSelectFromList')
+data.setCell(10, 2, 'tests.AddProductToWishlistTest')
+data.setCell(10, 3, 10255);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'userCanChangeCurrency')
+data.setCell(11, 2, 'tests.ChangeCurrncyTest')
+data.setCell(11, 3, 8976);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'UserCanSelectFromList')
+data.setCell(12, 2, 'tests.SearchUsingAutoSuggestTest')
+data.setCell(12, 3, 4962);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'UserCanSearchForProduct')
+data.setCell(13, 2, 'tests.AddProductToShopingCartTest')
+data.setCell(13, 3, 4896);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'UserCanSelectFromList')
+data.setCell(14, 2, 'tests.RegiseredUserCheckoutProductTest')
+data.setCell(14, 3, 4035);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'UserCanAddProductToShopingCart')
+data.setCell(15, 2, 'tests.AddProductToShopingCartTest')
+data.setCell(15, 3, 3750);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'UserCanSelectSubCategoryFromMainMenu')
+data.setCell(16, 2, 'tests.ProductHoverMenuTest')
+data.setCell(16, 3, 3239);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'UserCanAddProductToShopingCart')
+data.setCell(17, 2, 'tests.RegiseredUserCheckoutProductTest')
+data.setCell(17, 3, 2753);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'UserCanRemoveProductFromCart')
+data.setCell(18, 2, 'tests.AddProductToShopingCartTest')
+data.setCell(18, 3, 662);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'userCanLogout')
+data.setCell(19, 2, 'tests.MyAccTest')
+data.setCell(19, 3, 402);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'registredUserCanChangePw')
+data.setCell(20, 2, 'tests.MyAccTest')
+data.setCell(20, 3, 2);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'userCanLogout')
+data.setCell(21, 2, 'tests.RegiseredUserCheckoutProductTest')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'userCanLogout')
+data.setCell(22, 2, 'tests.UserRegistrationTest')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'userCanLogin')
+data.setCell(23, 2, 'tests.UserRegistrationTest')
+data.setCell(23, 3, 0);
+window.suiteTableData['nopcommerce_Regression_Suite']= { tableData: data, tableDiv: 'times-div-nopcommerce_Regression_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 6 minutes</span>
+              <div id="times-div-nopcommerce_Regression_Suite">
+              </div> <!-- times-div-nopcommerce_Regression_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-nopcommerce_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for nopcommerce Regression Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-nopcommerce_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">24 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.CompareProductTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startDriver</span>
+                <br/>
+                <span class="ignored-method-name">stopDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.MyAccTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startDriver</span>
+                <br/>
+                <span class="ignored-method-name">stopDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.UserRegistrationTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startDriver</span>
+                <br/>
+                <span class="ignored-method-name">stopDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.ProductReviewTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startDriver</span>
+                <br/>
+                <span class="ignored-method-name">stopDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.ChangeCurrncyTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startDriver</span>
+                <br/>
+                <span class="ignored-method-name">stopDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.AddProductToWishlistTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startDriver</span>
+                <br/>
+                <span class="ignored-method-name">stopDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.SearchUsingAutoSuggestTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startDriver</span>
+                <br/>
+                <span class="ignored-method-name">stopDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.SendEmailToFriendTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startDriver</span>
+                <br/>
+                <span class="ignored-method-name">stopDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.ContactUsTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startDriver</span>
+                <br/>
+                <span class="ignored-method-name">stopDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.RegiseredUserCheckoutProductTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startDriver</span>
+                <br/>
+                <span class="ignored-method-name">stopDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.SearchProductTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startDriver</span>
+                <br/>
+                <span class="ignored-method-name">stopDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">tests.ProductHoverMenuTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">startDriver</span>
+                <br/>
+                <span class="ignored-method-name">stopDriver</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-nopcommerce_Regression_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddProductToShopingCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">startDriver(chrome)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.CompareProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">UserCanCompareProduct</span>
+                <span class="method-start">5108 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=UserCanCompareProduct status=FAILURE method=CompareProductTest.UserCanCompareProduc...)</span>
+                <span class="method-start">45931 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UserCanSearchForProduct</span>
+                <span class="method-start">46322 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=UserCanSearchForProduct status=SUCCESS method=SearchProductTest.UserCanSearchForPro...)</span>
+                <span class="method-start">115028 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddProductToWishlistTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UserCanSelectFromList</span>
+                <span class="method-start">115028 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=UserCanSelectFromList status=SUCCESS method=AddProductToWishlistTest.UserCanSelectF...)</span>
+                <span class="method-start">125283 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SearchUsingAutoSuggestTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UserCanSelectFromList</span>
+                <span class="method-start">125284 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=UserCanSelectFromList status=SUCCESS method=SearchUsingAutoSuggestTest.UserCanSelec...)</span>
+                <span class="method-start">130246 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProductHoverMenuTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UserCanSelectSubCategoryFromMainMenu</span>
+                <span class="method-start">130247 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=UserCanSelectSubCategoryFromMainMenu status=SUCCESS method=ProductHoverMenuTest.Use...)</span>
+                <span class="method-start">133486 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ContactUsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UserCanUseContactUs</span>
+                <span class="method-start">133487 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=UserCanUseContactUs status=SUCCESS method=ContactUsTest.UserCanUseContactUs()[pri:0...)</span>
+                <span class="method-start">144646 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.SendEmailToFriendTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sendEmailToFriend</span>
+                <span class="method-start">144648 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=sendEmailToFriend status=SUCCESS method=SendEmailToFriendTest.sendEmailToFriend()[p...)</span>
+                <span class="method-start">160175 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ChangeCurrncyTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">userCanChangeCurrency</span>
+                <span class="method-start">160176 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=userCanChangeCurrency status=SUCCESS method=ChangeCurrncyTest.userCanChangeCurrency...)</span>
+                <span class="method-start">169152 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ProductReviewTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">userCanReviewProduct</span>
+                <span class="method-start">169153 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=userCanReviewProduct status=FAILURE method=ProductReviewTest.userCanReviewProduct()...)</span>
+                <span class="method-start">199223 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.UserRegistrationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">RegisterSuccessfully</span>
+                <span class="method-start">199590 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=RegisterSuccessfully status=FAILURE method=UserRegistrationTest.RegisterSuccessfull...)</span>
+                <span class="method-start">229660 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">userCanLogout</span>
+                <span class="method-start">230027 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">userCanLogin</span>
+                <span class="method-start">230028 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.MyAccTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">RegisterSuccessfully</span>
+                <span class="method-start">230029 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=RegisterSuccessfully status=FAILURE method=MyAccTest.RegisterSuccessfully()[pri:1, ...)</span>
+                <span class="method-start">260171 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RegiseredUserCheckoutProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">RegisterSuccessfully</span>
+                <span class="method-start">260529 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=RegisterSuccessfully status=FAILURE method=RegiseredUserCheckoutProductTest.Registe...)</span>
+                <span class="method-start">290639 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddProductToShopingCartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UserCanSearchForProduct</span>
+                <span class="method-start">290980 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=UserCanSearchForProduct status=SUCCESS method=AddProductToShopingCartTest.UserCanSe...)</span>
+                <span class="method-start">295876 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">UserCanAddProductToShopingCart</span>
+                <span class="method-start">295877 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=UserCanAddProductToShopingCart status=FAILURE method=AddProductToShopingCartTest.Us...)</span>
+                <span class="method-start">299627 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RegiseredUserCheckoutProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UserCanSelectFromList</span>
+                <span class="method-start">299944 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=UserCanSelectFromList status=SUCCESS method=RegiseredUserCheckoutProductTest.UserCa...)</span>
+                <span class="method-start">303979 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.MyAccTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">registredUserCanChangePw</span>
+                <span class="method-start">303981 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=registredUserCanChangePw status=FAILURE method=MyAccTest.registredUserCanChangePw()...)</span>
+                <span class="method-start">303984 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RegiseredUserCheckoutProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">UserCanAddProductToShopingCart</span>
+                <span class="method-start">304322 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=UserCanAddProductToShopingCart status=FAILURE method=RegiseredUserCheckoutProductTe...)</span>
+                <span class="method-start">307075 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddProductToShopingCartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">UserCanRemoveProductFromCart</span>
+                <span class="method-start">307393 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=UserCanRemoveProductFromCart status=SUCCESS method=AddProductToShopingCartTest.User...)</span>
+                <span class="method-start">308056 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.MyAccTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">userCanLogout</span>
+                <span class="method-start">308056 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=userCanLogout status=FAILURE method=MyAccTest.userCanLogout()[pri:3, instance:tests...)</span>
+                <span class="method-start">308459 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RegiseredUserCheckoutProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">UserCanCheckoutProduct</span>
+                <span class="method-start">308794 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=UserCanCheckoutProduct status=FAILURE method=RegiseredUserCheckoutProductTest.UserC...)</span>
+                <span class="method-start">338816 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.MyAccTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">userCanLogin</span>
+                <span class="method-start">339149 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=userCanLogin status=FAILURE method=MyAccTest.userCanLogin()[pri:4, instance:tests.M...)</span>
+                <span class="method-start">369680 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.RegiseredUserCheckoutProductTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">userCanLogout</span>
+                <span class="method-start">369988 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">screenshotOnFailure([TestResult name=userCanLogout status=FAILURE method=RegiseredUserCheckoutProductTest.userCanLogout(...)</span>
+                <span class="method-start">369988 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.AddProductToShopingCartTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">stopDriver</span>
+                <span class="method-start">370400 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
